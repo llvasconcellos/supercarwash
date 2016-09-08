@@ -1,0 +1,12 @@
+/*
+	System poprawności dzialania komponentu
+	style dodatkowe.
+*/
+
+strong.gkp_enabled{
+    color: #FF00FF;
+}
+
+strong.gkp_disabled{
+	color: #FF0000;
+}

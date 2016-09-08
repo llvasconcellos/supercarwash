@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+        <name>Gavick News Image I</name>
+        <creationDate>31/10/2008</creationDate>
+        <author>Gavick.com</author>
+        <copyright>(C) 2008 Gavick.com</copyright>
+        <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+        <authorEmail>info@gavick.com</authorEmail>
+        <authorUrl>www.gavick.com</authorUrl>
+        <version>2.1.2</version>
+        <description>INSTALLED</description>
+        
+		<files>
+                <filename module="mod_gk_news_image_1">mod_gk_news_image_1.php</filename>
+                <filename module="mod_gk_news_image_1">helper.php</filename>
+				<filename module="mod_gk_news_image_1">index.html</filename>
+                <filename module="mod_gk_news_image_1">tmpl/default.php</filename>
+                <filename module="mod_gk_news_image_1">tmpl/content.php</filename>
+				<filename module="mod_gk_news_image_1">tmpl/index.html</filename>
+                <filename module="mod_gk_news_image_1">js/mootools.js</filename>
+                <filename module="mod_gk_news_image_1">js/engine.js</filename>
+                <filename module="mod_gk_news_image_1">js/engine_compress.js</filename>
+				<filename module="mod_gk_news_image_1">js/importer.php</filename>
+				<filename module="mod_gk_news_image_1">js/index.html</filename>
+                <filename module="mod_gk_news_image_1">css/style.php</filename>
+                <filename module="mod_gk_news_image_1">css/index.html</filename>
+                <filename module="mod_gk_news_image_1">images/index.html</filename>
+                <filename module="mod_gk_news_image_1">images/buttons.png</filename>
+				<filename module="mod_gk_news_image_1">images/s_next.png</filename>
+                <filename module="mod_gk_news_image_1">images/s_next-h.png</filename>
+                <filename module="mod_gk_news_image_1">images/s_prev.png</filename>
+                <filename module="mod_gk_news_image_1">images/s_prev-h.png</filename>
+                <filename module="mod_gk_news_image_1">images/tick.png</filename>
+                <filename module="mod_gk_news_image_1">images/tick_active.png</filename>
+                <filename module="mod_gk_news_image_1">images/load.gif</filename>
+        </files>
+        
+        <languages>
+   			<language tag="en-GB">language/en-GB.mod_gk_news_image_1.ini</language>
+   			<language tag="de-DE">language/de-DE.mod_gk_news_image_1.ini</language>
+   			<language tag="pl-PL">language/pl-PL.mod_gk_news_image_1.ini</language>
+		</languages>
+        
+        <params>
+    <param name="@spacer" label="BASIC" description="BASIC" type="spacer"/>
+                
+				<param name="moduleclass_sfx" type="text" default="" label="MODULECLASSSUFFIX" description="MODULECLASSSUFFIX_DESC" />
+                
+                <param name="module_id" type="text" default="newsimage1" label="MODID" description="MODID_DESC" />
+                
+				<param name="group_id" type="sql" default="" label="GROUPID" description="GROUPID_DESC" query="SELECT id AS value, name AS group_id FROM #__gk2_photoslide_groups WHERE plugin = 'GK News Image I'" />
+				
+				<param name="module_width" type="text" default="0" label="MODWIDTH" description="MODWIDTH_DESC" />
+				
+				<param name="module_height" type="text" default="0" label="MODHEIGHT" description="MODHEIGHT_DESC" />
+				
+				<param name="image_x" type="text" default="0" label="SLIDEPOSLEFT" description="SLIDEPOSLEFT_DESC" />
+				
+				<param name="image_y" type="text" default="0" label="SLIDEPOSTOP" description="SLIDEPOSTOP_DESC" />
+					
+    <param name="@spacer" label="TEXT" type="spacer"/>
+                
+				<param name="show_text_block" type="radio" default="1" label="SHOWTEXTBLOCK" description="SHOWTEXTBLOCK_DESC">
+                        <option value="1">ENABLED</option>
+                        <option value="0">DISABLED</option>
+                </param>
+                
+                <param name="text_block_width" type="text" default="200" label="TEXTBLOCKWIDTH" description="TEXTBLOCKWIDTH_DESC" />
+                
+                <param name="text_block_margin" type="text" default="50" label="TEXTBLOCKLEFTMARGIN" description="TEXTBLOCKLEFTMARGIN_DESC" />
+                
+                <param name="text_block_opacity" type="text" default="0.45" label="TEXTBLOCKOPACITY" description="TEXTBLOCKOPACITY_DESC" />
+                
+                <param name="text_block_background" type="radio" default="1" label="TEXTBLOCKBG" description="TEXTBLOCKBG_DESC">
+                        <option value="1">DEFAULT</option>
+                        <option value="0">OWN</option>
+                </param>
+                
+                <param name="text_block_bgcolor" type="text" default="#000000" label="TEXTBLOCKBGCOLOR" description="TEXTBLOCKBGCOLOR_DESC" />
+                
+                <param name="clean_xhtml" type="radio" default="1" label="XHTML" description="XHTML_DESC">
+                        <option value="1">ENABLED</option>
+                        <option value="0">DISABLED</option>
+                </param>
+                
+                <param name="readmore_button" type="radio" default="1" label="READMOREBUTTON" description="READMOREBUTTON_DESC">
+                        <option value="1">ENABLED</option>
+                        <option value="0">DISABLED</option>
+                </param>
+                
+                <param name="readmore_text" type="text" default="Read more" label="READMORE" description="READMORE_DESC" />
+                
+                <param name="title_link" type="radio" default="1" label="TITLELINK" description="TITLELINK_DESC">
+                        <option value="1">ENABLED</option>
+                        <option value="0">DISABLED</option>
+                </param>
+            
+    <param name="@spacer" label="INTERFACE" type="spacer"/>
+                
+                <param name="prev_button" type="radio" default="1" label="PREVIOUS" description="PREVIOUS_DESC">
+                        <option value="1">ENABLED</option>
+                        <option value="0">DISABLED</option>
+                </param>
+                
+                <param name="next_button" type="radio" default="1" label="NEXT" description="NEXT_DESC">
+                        <option value="1">ENABLED</option>
+                        <option value="0">DISABLED</option>
+                </param>
+                
+                <param name="play_button" type="radio" default="1" label="PLAYPAUSE" description="PLAYPAUSE_DESC">
+                        <option value="1">ENABLED</option>
+                        <option value="0">DISABLED</option>
+                </param>
+                
+                <param name="interface_x" type="text" default="20" label="BUTTONSRIGHT" description="BUTTONSRIGHT_DESC" />
+                
+                <param name="interface_y" type="text" default="20" label="BUTTONSBOTTOM" description="BUTTONSBOTTOM_DESC" />
+                
+                <param name="slidelinks" type="radio" default="1" label="SLIDELINKS" description="SLIDELINKS_DESC">
+                        <option value="1">ENABLED</option>
+                        <option value="0">DISABLED</option>
+                </param>
+                
+                <param name="thumbnail_bar" type="radio" default="1" label="THUMBNAILBAR" description="THUMBNAILBAR_DESC">
+                        <option value="1">ENABLED</option>
+                        <option value="0">DISABLED</option>
+                </param>
+                
+                <param name="thumbnail_margin" type="text" default="4" label="THUMBNAILMARGIN" description="THUMBNAILMARGIN_DESC" />
+                
+                <param name="thumbnail_border" type="text" default="1" label="THUMBNAILBORDERWIDTH" description="THUMBNAILBORDERWIDTH_DESC" />
+                
+                <param name="thumbnail_border_color_inactive" type="text" default="#000000" label="THUMBNAILBORDERCOLORI" description="THUMBNAILBORDERCOLORI_DESC" />
+                
+                <param name="thumbnail_border_color" type="text" default="#FFFFFF" label="THUMBNAILBORDERCOLOR" description="THUMBNAILBORDERCOLOR_DESC" />
+                
+                <param name="thumbnail_bar_position" type="radio" default="1" label="THUMBNAILPOS" description="THUMBNAILPOS_DESC">
+                        <option value="0">TOP</option>
+                        <option value="1">BOTTOM</option>
+                </param>
+                
+                <param name="show_ticks" type="radio" default="1" label="TICKLIST" description="TICKLIST_DESCTurn on tick list">
+                        <option value="1">ENABLED</option>
+                        <option value="0">DISABLED</option>
+                </param>
+                
+                <param name="tick_x" type="text" default="20" label="TICKLEFT" description="TICKLEFT_DESC" />
+                
+                <param name="tick_y" type="text" default="20" label="TICKTOP" description="TICKTOP_DESC" />
+                
+                <param name="preloading" type="radio" default="1" label="PRELOAD" description="PRELOAD_DESC">
+                        <option value="1">ENABLED</option>
+                        <option value="0">DISABLED</option>
+                </param>
+                
+    <param  name="@spacer" label="ANIMATION" type="spacer"/>
+                  
+				<param name="animation_slide_speed" type="text" default="1000" label="SPEED" description="SPEED_DESC" />
+				
+                <param name="animation_interval" type="text" default="5000" label="INTERVAL" description="INTERVAL_DESC" />
+                
+                <param name="autoanimation" type="radio" default="1" label="AUTOANIMATION" description="AUTOANIMATION_DESC">
+                        <option value="1">ENABLED</option>
+                        <option value="0">DISABLED</option>
+                </param>
+                
+                <param name="animation_slide_type" type="radio" default="0" label="ANIMATIONTYPE" description="ANIMATIONTYPE_DESC">
+                        <option value="0">OPACITY</option>
+                        <option value="1">TOP</option>
+                        <option value="2">LEFT</option>
+                        <option value="3">BOTTOM</option>
+                        <option value="4">RIGHT</option>
+                </param>
+                
+                <param name="animation_text_type" type="radio" default="0" label="TEXTANIMATION" description="TEXTANIMATION_DESC">
+                        <option value="0">OPACITY</option>
+                        <option value="1">NONE</option>
+                </param>
+                
+        </params>
+        <params group="advanced">
+                <param name="@spacer" label="SCRIPTS" decription="" type="spacer"/>
+                
+                <param name="clean_code" type="list" default="1" label="CLEANCODE" description="CLEANCODE_DESC">
+						<option value="1">ENABLED</option>
+                        <option value="0">DISABLED</option>
+                </param>
+                
+                <param name="useMoo" type="list" default="2" label="USEMOO" description="USEMOO_DESC">
+                        <option value="2">AUTOMATIC</option>
+						<option value="1">FORCEENABLED</option>
+                        <option value="0">FORCEDISABLED</option>
+                </param>
+                
+                <param name="useScript" type="list" default="2" label="USEJS" description="USEJS_DESC">
+                        <option value="2">AUTOMATIC</option>
+						<option value="1">FORCEENABLED</option>
+                        <option value="0">FORCEDISABLED</option>
+                </param>
+                
+                <param name="compress_js" type="list" default="1" label="COMPRESS" description="COMPRESS_DESC">
+						<option value="1">ENABLED</option>
+                        <option value="0">DISABLED</option>
+                </param>
+        </params>
+</install>

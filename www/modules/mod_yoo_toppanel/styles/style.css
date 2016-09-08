@@ -1,0 +1,29 @@
+/* (C) 2007 YOOtheme.com */
+
+div.yoo-toppanel div.panel-container {
+	position: absolute;
+	left: 50%;
+	width: 100%;
+	height: 0px; /* overlapping link bug */
+	margin-left: -50%;
+	z-index: 15;
+}
+
+div.yoo-toppanel div.panel-wrapper {
+	height: 0px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+div.yoo-toppanel div.panel {
+	position: relative;
+}
+
+div.yoo-toppanel div.trigger {
+	position: relative;
+}
+
+div.yoo-toppanel div.article {
+	clear: both;
+}

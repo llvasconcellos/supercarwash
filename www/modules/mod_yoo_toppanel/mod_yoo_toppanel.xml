@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>YOOtoppanel</name>
+	<author>YOOtheme</author>
+	<creationDate>December 2007</creationDate>
+	<copyright>Copyright (C) 2007 YOOtheme Ltd. &amp; Co. KG</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@yootheme.com</authorEmail>
+	<authorUrl>http://www.yootheme.com</authorUrl>
+	<version>1.5.1</version>
+	<description>YOOtoppanel module of the YOOtheme club (http://www.yootheme.com) for Joomla! 1.5. Requires mootools 1.1</description>
+	<files>
+		<filename module="mod_yoo_toppanel">mod_yoo_toppanel.php</filename>
+		<filename>mod_yoo_toppanel.css.php</filename>
+		<filename>mod_yoo_toppanel.js</filename>
+		<filename>mod_yoo_toppanel.xml</filename>
+		<filename>helper.php</filename>
+		<filename>changelog.php</filename>
+		<filename>index.html</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>tmpl/index.html</filename>
+		<filename>tmpl/transparent.php</filename>
+		<filename>tmpl/_item.php</filename>
+		<filename>styles/default/images/index.html</filename>
+		<filename>styles/default/images/panel_bg.png</filename>
+		<filename>styles/default/images/trigger_l.png</filename>
+		<filename>styles/default/images/trigger_m.png</filename>
+		<filename>styles/default/images/trigger_r.png</filename>
+		<filename>styles/default/index.html</filename>
+		<filename>styles/default/style.css</filename>
+		<filename>styles/iehacks.css</filename>
+		<filename>styles/index.html</filename>
+		<filename>styles/style.css</filename>
+		<filename>styles/transparent/images/index.html</filename>
+		<filename>styles/transparent/images/panel_bg.png</filename>
+		<filename>styles/transparent/images/trigger_l.png</filename>
+		<filename>styles/transparent/images/trigger_m.png</filename>
+		<filename>styles/transparent/images/trigger_r.png</filename>
+		<filename>styles/transparent/index.html</filename>
+		<filename>styles/transparent/style.css</filename>
+	</files>
+	<params>
+		<param name="catid" type="category" default="0" label="Category" description="A content category which items are used for the YOOtoppanel" />
+		<param name="style" type="list" default="default" label="Style" description="The YOOtoppanel styling">
+			<option value="default">Default</option>
+			<option value="transparent">Transparent</option>
+		</param>
+		<param name="top_position" type="text" default="0" label="Top Position (px)" description="Absolute position of the whole panel in pixel" />
+		<param name="left_position" type="text" default="50" label="Left Position (%)" description="Absolute position of the trigger in percent" />
+		<param name="module_height" type="text" default="340" label="Module height (px)" description="Module height in pixel" />
+		<param name="module_width" type="text" default="600" label="Module width (px)" description="Module width in pixel" />
+		<param name="trigger_label" type="text" default="Top Panel" label="Trigger label" description="Label for the trigger" />
+		<param name="button_label" type="text" default="close" label="Close button label" description="Label for the close button inside the panel" />
+		<param name="button" type="radio" default="1" label="Enable close button" description="Enable/Disable the close button">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="fx_duration" type="text" default="500" label="Slide duration" description="Duration for the YOOtoppanel slide effect" />
+		<param name="order" type="list" default="o_asc" label="Ordering" description="Ordering options">
+			<option value="o_asc">Article Order</option>
+			<option value="c_dsc">Recently Added First</option>
+			<option value="m_dsc">Recently Modified First</option>
+			<option value="h_dsc">Most Popular</option>			
+			<option value="rnd">Randomize</option>
+	  	</param>
+		<param name="items" type="text" default="1" label="No. of Items" description="Maximum no of items to display" />
+		<param name="moduleclass_sfx" type="text" default="-blank" label="Module Class Suffix" description="Module Class Suffix" />
+	</params>
+	<params group="advanced">
+		<param name="cache" type="list" default="0" label="Caching" description="Select whether to cache the content of this module">
+			<option value="1">Use global</option>
+			<option value="0">No caching</option>
+		</param>
+		<param name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+	</params>
+</install>

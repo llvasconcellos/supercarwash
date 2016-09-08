@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! 1.5 - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="http://localhost/superseco/index.php" xml:lang="pt-br">
+	<title type="text">Super Car Wash</title>
+	<subtitle type="text">Joomla! - O sistema dinâmico de portais e gerenciador de conteúdo</subtitle>
+	<link rel="alternate" type="text/html" href="/superseco/index.php?option=com_content&amp;view=frontpage&amp;Itemid=1"/>
+	<id>/superseco/index.php?option=com_content&amp;view=frontpage&amp;Itemid=1</id>
+	<updated>2016-09-08T01:35:32Z</updated>
+	<generator uri="http://joomla.org" version="1.5">Joomla! 1.5 - Open Source Content Management</generator>
+<link rel="self" type="application/atom+xml" href="" />
+	<entry>
+		<title>Produtos Ecológicos</title>
+		<link rel="alternate" type="text/html" href="/superseco/index.php?option=com_content&amp;view=article&amp;id=1%3Aprodutos-ecologicos&amp;catid=1%3Alatest-news&amp;Itemid=1"/>
+		<published>2006-10-12T12:00:00Z</published>
+		<updated>2006-10-12T12:00:00Z</updated>
+		<id>/superseco/index.php?option=com_content&amp;amp;view=article&amp;amp;id=1%3Aprodutos-ecologicos&amp;amp;catid=1%3Alatest-news&amp;amp;Itemid=1</id>
+		<summary type="html">&lt;img src=&quot;images/stories/perfectshine8.jpg&quot; border=&quot;0&quot; alt=&quot;Produtos Ecológicos&quot; title=&quot;Produtos Ecológicos&quot; hspace=&quot;4&quot; width=&quot;200&quot; height=&quot;133&quot; align=&quot;left&quot; /&gt;Um dos grandes problemas do século XX, despertado após a segunda grande guerra mundial, a falta de água gerou o surgimento de tecnologias alternativas para a sua substituição. Em especial na manutenção da frota rodante mundial. Nos idos da década de 1980 surgiu nos Estados Unidos a tecnologia de lavagem a seco, segura para a utilização humana, voltada à industria automotiva. Seu grande apelo é a total segurança em termos ecológicos, bem como a redução de custos para usuários empresariais e populares. Nossa colaboração é a continuidade da economia de recursos hídricos, sem causar riscos ao meio ambiente.</summary>
+		<content type="html">&lt;img src=&quot;images/stories/perfectshine8.jpg&quot; border=&quot;0&quot; alt=&quot;Produtos Ecológicos&quot; title=&quot;Produtos Ecológicos&quot; hspace=&quot;4&quot; width=&quot;200&quot; height=&quot;133&quot; align=&quot;left&quot; /&gt;Um dos grandes problemas do século XX, despertado após a segunda grande guerra mundial, a falta de água gerou o surgimento de tecnologias alternativas para a sua substituição. Em especial na manutenção da frota rodante mundial. Nos idos da década de 1980 surgiu nos Estados Unidos a tecnologia de lavagem a seco, segura para a utilização humana, voltada à industria automotiva. Seu grande apelo é a total segurança em termos ecológicos, bem como a redução de custos para usuários empresariais e populares. Nossa colaboração é a continuidade da economia de recursos hídricos, sem causar riscos ao meio ambiente.</content>
+	</entry>
+	<entry>
+		<title>Economia de Água</title>
+		<link rel="alternate" type="text/html" href="/superseco/index.php?option=com_content&amp;view=article&amp;id=44%3Aeconomia-de-agua&amp;catid=1%3Alatest-news&amp;Itemid=1"/>
+		<published>2009-02-11T04:06:47Z</published>
+		<updated>2009-02-11T04:06:47Z</updated>
+		<id>/superseco/index.php?option=com_content&amp;amp;view=article&amp;amp;id=44%3Aeconomia-de-agua&amp;amp;catid=1%3Alatest-news&amp;amp;Itemid=1</id>
+		<summary type="html">&lt;img src=&quot;images/stories/estrada.jpg&quot; border=&quot;0&quot; alt=&quot;Estrada Ecológica&quot; title=&quot;Estrada Ecológica&quot; hspace=&quot;4&quot; width=&quot;200&quot; height=&quot;150&quot; align=&quot;left&quot; /&gt;Segundo a Organização das Nações Unidas (ONU), em 2050 cerca de 45% da população do mundo não poderá contar com um mínimo de água para as necessidades básicas. Vendo isso, para muitos parece quase um crime usar a água tratada que sai da torneira para lavar.</summary>
+		<content type="html">&lt;img src=&quot;images/stories/estrada.jpg&quot; border=&quot;0&quot; alt=&quot;Estrada Ecológica&quot; title=&quot;Estrada Ecológica&quot; hspace=&quot;4&quot; width=&quot;200&quot; height=&quot;150&quot; align=&quot;left&quot; /&gt;Segundo a Organização das Nações Unidas (ONU), em 2050 cerca de 45% da população do mundo não poderá contar com um mínimo de água para as necessidades básicas. Vendo isso, para muitos parece quase um crime usar a água tratada que sai da torneira para lavar.</content>
+	</entry>
+</feed>

@@ -1,0 +1,166 @@
+/* (C) 2007 YOOtheme.com */
+
+div.yoo-toppanel div.panel-container {
+	position: absolute;
+	left: 50%;
+	width: 100%;
+	height: 0px; /* overlapping link bug */
+	margin-left: -50%;
+	z-index: 15;
+}
+
+div.yoo-toppanel div.panel-wrapper {
+	height: 0px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+div.yoo-toppanel div.panel {
+	position: relative;
+}
+
+div.yoo-toppanel div.trigger {
+	position: relative;
+}
+
+div.yoo-toppanel div.article {
+	clear: both;
+}/* (C) 2007 YOOtheme.com */
+
+div.default div.yoo-toppanel div.panel {
+	background: #000000 url(styles/default/images/panel_bg.png) 0 100% repeat-x;
+	color: #969696;
+}
+
+div.default div.yoo-toppanel div.content {
+	margin: auto;
+	padding-top: 20px;
+	overflow: hidden;
+}
+
+div.default div.yoo-toppanel div.close {
+	width: 50px;
+	height: 18px;
+	margin-bottom: 10px;
+	border: 1px solid #646464;
+	background: #1e1e1e;
+	float: right;
+	overflow: hidden;
+	text-align: center;
+	font-size: 85%;
+	line-height: 18px;
+	cursor: pointer;
+}
+
+div.default div.yoo-toppanel div.trigger {
+	top: 0px;
+	width: 120px;
+	margin-left: -60px;
+	cursor: pointer;
+}
+
+div.default div.yoo-toppanel div.trigger img {
+	width: 20px;
+	height: 19px;
+	border: 0px;
+}
+
+div.default div.yoo-toppanel div.trigger-l, div.default div.yoo-toppanel div.trigger-r {
+	width: 20px;
+	height: 19px;
+	float: left;
+}
+
+div.default div.yoo-toppanel div.trigger-l {
+	background: url(styles/default/images/trigger_l.png) 100% 0 repeat-x;
+}
+
+div.default div.yoo-toppanel div.trigger-r {
+	background: url(styles/default/images/trigger_r.png) 100% 0 repeat-x;
+}
+
+div.default div.yoo-toppanel div.trigger-m {
+	width: 80px;
+	height: 19px;
+	background: url(styles/default/images/trigger_m.png) 100% 0 repeat-x;
+	float: left;
+	text-align: center;
+	font-size: 85%;
+	line-height: 18px;
+	overflow: hidden;
+	color: #ffffff;
+}
+
+div.default div.yoo-toppanel div.article {
+	padding-bottom: 10px;
+}/* (C) 2007 YOOtheme.com */
+
+div.transparent div.yoo-toppanel div.panel {
+	/* position: relative; /* IE6 link fix for transparent background image */
+	background: url(styles/transparent/images/panel_bg.png) 0 100% repeat;
+	color: #969696;
+}
+
+div.transparent div.yoo-toppanel div.content {
+	margin: auto;
+	padding-top: 20px;
+	overflow: hidden;
+}
+
+div.transparent div.yoo-toppanel div.close {
+	width: 50px;
+	height: 18px;
+	margin-bottom: 10px;
+	border: 1px solid #646464;
+	background: #1e1e1e;
+	float: right;
+	overflow: hidden;
+	text-align: center;
+	font-size: 85%;
+	line-height: 18px;
+	cursor: pointer;
+}
+
+div.transparent div.yoo-toppanel div.trigger {
+	top: 0px;
+	width: 120px;
+	margin-left: -60px;
+	cursor: pointer;
+}
+
+div.transparent div.yoo-toppanel div.trigger img {
+	width: 20px;
+	height: 19px;
+	border: 0px;
+}
+
+div.transparent div.yoo-toppanel div.trigger-l, div.transparent div.yoo-toppanel div.trigger-r {
+	width: 20px;
+	height: 19px;
+	float: left;
+}
+
+div.transparent div.yoo-toppanel div.trigger-l {
+	background: url(styles/transparent/images/trigger_l.png) 100% 0 repeat-x;
+}
+
+div.transparent div.yoo-toppanel div.trigger-r {
+	background: url(styles/transparent/images/trigger_r.png) 100% 0 repeat-x;
+}
+
+div.transparent div.yoo-toppanel div.trigger-m {
+	width: 80px;
+	height: 19px;
+	background: url(styles/transparent/images/trigger_m.png) 100% 0 repeat-x;
+	float: left;
+	text-align: center;
+	font-size: 85%;
+	line-height: 18px;
+	overflow: hidden;
+	color: #ffffff;
+}
+
+div.transparent div.yoo-toppanel div.article {
+	padding-bottom: 10px;
+}

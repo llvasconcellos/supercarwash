@@ -1,0 +1,69 @@
+/* (C) 2007 YOOtheme.com */
+
+div.default div.yoo-toppanel div.panel {
+	background: #000000 url(styles/default/images/panel_bg.png) 0 100% repeat-x;
+	color: #969696;
+}
+
+div.default div.yoo-toppanel div.content {
+	margin: auto;
+	padding-top: 20px;
+	overflow: hidden;
+}
+
+div.default div.yoo-toppanel div.close {
+	width: 50px;
+	height: 18px;
+	margin-bottom: 10px;
+	border: 1px solid #646464;
+	background: #1e1e1e;
+	float: right;
+	overflow: hidden;
+	text-align: center;
+	font-size: 85%;
+	line-height: 18px;
+	cursor: pointer;
+}
+
+div.default div.yoo-toppanel div.trigger {
+	top: 0px;
+	width: 120px;
+	margin-left: -60px;
+	cursor: pointer;
+}
+
+div.default div.yoo-toppanel div.trigger img {
+	width: 20px;
+	height: 19px;
+	border: 0px;
+}
+
+div.default div.yoo-toppanel div.trigger-l, div.default div.yoo-toppanel div.trigger-r {
+	width: 20px;
+	height: 19px;
+	float: left;
+}
+
+div.default div.yoo-toppanel div.trigger-l {
+	background: url(styles/default/images/trigger_l.png) 100% 0 repeat-x;
+}
+
+div.default div.yoo-toppanel div.trigger-r {
+	background: url(styles/default/images/trigger_r.png) 100% 0 repeat-x;
+}
+
+div.default div.yoo-toppanel div.trigger-m {
+	width: 80px;
+	height: 19px;
+	background: url(styles/default/images/trigger_m.png) 100% 0 repeat-x;
+	float: left;
+	text-align: center;
+	font-size: 85%;
+	line-height: 18px;
+	overflow: hidden;
+	color: #ffffff;
+}
+
+div.default div.yoo-toppanel div.article {
+	padding-bottom: 10px;
+}

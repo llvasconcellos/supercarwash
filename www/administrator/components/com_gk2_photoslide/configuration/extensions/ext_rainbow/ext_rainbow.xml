@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<name>GK Rainbow</name>
+	<type>extension</type>
+	<version>1.0</version>
+	<author>GavickPro</author>
+	<description>Interface extension to add easy way of selecting colors</description>
+	<phpclassfile>ext_rainbow.php</phpclassfile>
+</module>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<name>GK News Image I</name>
+	<type>module</type>
+	<version>2.0</version>
+	<author>GavickPro</author>
+	<description>XML file for module Gavick News Image I</description>
+	<phpclassfile>plg_gk_news_image_1.php</phpclassfile>
+			
+	<groupdb>
+		<field>
+			<name>mediumThumbX</name>
+			<type>int(11)</type>
+			<default>0</default>
+		</field>
+		
+		<field>
+			<name>mediumThumbY</name>
+			<type>int(11)</type>
+			<default>0</default>
+		</field>
+
+		<field>
+			<name>smallThumbX</name>
+			<type>int(11)</type>
+			<default>0</default>
+		</field>
+		
+		<field>
+			<name>smallThumbY</name>
+			<type>int(11)</type>
+			<default>0</default>
+		</field>
+
+		<field>
+			<name>bgcolor</name>
+			<type>varchar(7)</type>
+			<default>0</default>
+		</field>
+		
+		<field>
+			<name>titlecolor</name>
+			<type>varchar(7)</type>
+			<default>0</default>
+		</field>
+		
+		<field>
+			<name>textcolor</name>
+			<type>varchar(7)</type>
+			<default>0</default>
+		</field>
+		
+		<field>
+			<name>linkcolor</name>
+			<type>varchar(7)</type>
+			<default>0</default>
+		</field>
+
+		<field>
+			<name>hlinkcolor</name>
+			<type>varchar(7)</type>
+			<default>0</default>
+		</field>
+	
+		<field>
+			<name>quality</name>
+			<type>int(3)</type>
+			<default>75</default>
+		</field>
+	
+	</groupdb>
+	
+	<slidedb>	
+		<field>
+			<name>title</name>
+			<type>varchar(255)</type>
+			<default>''</default>
+		</field>
+	
+		<field>
+			<name>text</name>
+			<type>varchar(255)</type>
+			<default>0</default>
+		</field>
+		
+		<field>
+			<name>linktype</name>
+			<type>int(1)</type>
+			<default>0</default>
+		</field>													
+
+		<field>
+			<name>linkvalue</name>
+			<type>varchar(255)</type>
+			<default>0</default>
+		</field>		
+
+		<field>
+			<name>article</name>
+			<type>int(11)</type>
+			<default>0</default>
+		</field>		
+		
+		<field>
+			<name>wordcount</name>
+			<type>int(4)</type>
+			<default>0</default>
+		</field>	
+		
+		<field>
+			<name>stretch</name>
+			<type>int(4)</type>
+			<default>0</default>
+		</field>	
+	</slidedb>
+</module>

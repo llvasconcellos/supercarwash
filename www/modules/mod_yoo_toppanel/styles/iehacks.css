@@ -1,0 +1,10 @@
+/* (C) 2007 YOOtheme.com */
+
+div.yoo-toppanel div.panel {
+	position: static;
+}
+
+div.yoo-toppanel div.article {
+	clear: none;
+	width: 100%;
+}

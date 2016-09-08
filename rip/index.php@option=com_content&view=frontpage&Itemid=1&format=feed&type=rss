@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! 1.5 - Open Source Content Management" -->
+<rss version="2.0">
+	<channel>
+		<title>Super Car Wash</title>
+		<description>Joomla! - O sistema dinâmico de portais e gerenciador de conteúdo</description>
+		<link>http://localhost/superseco/index.php?option=com_content&amp;view=frontpage&amp;Itemid=1</link>
+		<lastBuildDate>Thu, 08 Sep 2016 01:35:32 +0000</lastBuildDate>
+		<generator>Joomla! 1.5 - Open Source Content Management</generator>
+		<language>pt-br</language>
+		<item>
+			<title>Produtos Ecológicos</title>
+			<link>http://localhost/superseco/index.php?option=com_content&amp;view=article&amp;id=1%3Aprodutos-ecologicos&amp;catid=1%3Alatest-news&amp;Itemid=1</link>
+			<description><![CDATA[<img src="http://localhost/superseco/images/stories/perfectshine8.jpg" border="0" alt="Produtos Ecológicos" title="Produtos Ecológicos" hspace="4" width="200" height="133" align="left" />Um dos grandes problemas do século XX, despertado após a segunda grande guerra mundial, a falta de água gerou o surgimento de tecnologias alternativas para a sua substituição. Em especial na manutenção da frota rodante mundial. Nos idos da década de 1980 surgiu nos Estados Unidos a tecnologia de lavagem a seco, segura para a utilização humana, voltada à industria automotiva. Seu grande apelo é a total segurança em termos ecológicos, bem como a redução de custos para usuários empresariais e populares. Nossa colaboração é a continuidade da economia de recursos hídricos, sem causar riscos ao meio ambiente.]]></description>
+			<category>frontpage</category>
+			<pubDate>Thu, 12 Oct 2006 12:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>Economia de Água</title>
+			<link>http://localhost/superseco/index.php?option=com_content&amp;view=article&amp;id=44%3Aeconomia-de-agua&amp;catid=1%3Alatest-news&amp;Itemid=1</link>
+			<description><![CDATA[<img src="http://localhost/superseco/images/stories/estrada.jpg" border="0" alt="Estrada Ecológica" title="Estrada Ecológica" hspace="4" width="200" height="150" align="left" />Segundo a Organização das Nações Unidas (ONU), em 2050 cerca de 45% da população do mundo não poderá contar com um mínimo de água para as necessidades básicas. Vendo isso, para muitos parece quase um crime usar a água tratada que sai da torneira para lavar.]]></description>
+			<category>frontpage</category>
+			<pubDate>Wed, 11 Feb 2009 04:06:47 +0000</pubDate>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0">
+    
+	<name>gk2_photoslide</name>
+	<author>Gavick.com</author>
+	<creationDate>04/02/2009</creationDate>	
+	<copyright>Copyright by Gavick.com</copyright>
+	<authorEmail>info@gavick.com</authorEmail>
+	<authorUrl>http://www.gavick.com</authorUrl>
+	<version>2.2</version>	
+	
+	<description>Photoslide GK2</description>
+		
+	<files destination="com_gk2_photoslide">
+		<filename>images/index.html</filename>
+		<filename>images/thumbm/index.html</filename>
+		<filename>images/thumbs/index.html</filename>
+	</files>
+    
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">install.mysql.utf8.sql</file>
+		</sql>
+	</install>
+	
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">uninstall.mysql.utf8.sql</file>
+		</sql>
+	</uninstall>
+	
+	<installfile>install.php</installfile>
+	<uninstallfile>uninstall.php</uninstallfile>
+	
+	<administration>
+		
+		<menu img="components/com_gk2_photoslide/interface/images/com_logo_gk2.png">Gavick PhotoSlide GK2</menu>
+		
+		<languages>
+   			<language tag="en-GB">language/en-GB.com_gk2_photoslide.ini</language>
+			<language tag="de-DE">language/de-DE.com_gk2_photoslide.ini</language>
+			<language tag="pl-PL">language/pl-PL.com_gk2_photoslide.ini</language>
+		</languages>
+		
+		<files>
+			<filename>install.mysql.utf8.sql</filename>
+			<filename>uninstall.mysql.utf8.sql</filename>
+			<filename>admin.gk2_photoslide.php</filename>
+			<filename>toolbar.gk2_photoslide.php</filename>
+			<filename>install.php</filename>
+			<filename>uninstall.php</filename>
+			<filename>index.html</filename>
+			<folder>views/</folder>
+            <folder>interface/</folder>
+            <folder>controllers/</folder>
+            <folder>configuration/</folder>
+		</files>
+		
+	</administration>
+	
+</install>

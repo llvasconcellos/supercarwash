@@ -1,0 +1,53 @@
+<install version="1.5" type="template"> 
+<name>supercarwash</name> 
+<author>supercarwash</author> 
+<copyright>supercarwash 2008</copyright> 
+<authorEmail>contato@supercarwash.com</authorEmail> 
+<authorUrl>www.supercarwash.com</authorUrl> 
+<version>1.5</version> 
+<description>supercarwash</description> 
+<creationDate>April 2008</creationDate> 
+<files> 
+<filename>css/template.css</filename>
+<filename>images/bg.jpg</filename>
+<filename>images/info.gif</filename>
+<filename>images/main.gif</filename> 
+<filename>images/middle_ad.jpg</filename>
+<filename>images/middle_header.jpg</filename>
+<filename>images/quote.gif</filename>
+<filename>images/read.gif</filename>
+<filename>images/sub.png</filename>
+<filename>images/top_header.jpg</filename>
+<filename>images/wave.jpg</filename>
+<filename>index.php</filename> 
+<filename>templateDetails.xml</filename> 
+</files> 
+<params /> 
+<positions>
+<position>absolute</position>
+<position>banner</position>
+<position>advert1</position>
+<position>advert2</position>
+<position>advert3</position>
+<position>inset</position>
+<position>header</position>
+<position>intro1</position>
+<position>intro2</position>
+<position>intro3</position>
+<position>user1</position>
+<position>user2</position>
+<position>user3</position>
+<position>user4</position>
+<position>user5</position>
+<position>user6</position>
+<position>user7</position>
+<position>user8</position>
+<position>user9</position>
+<position>user10</position>
+<position>inset</position>
+<position>newsflash</position>
+<position>top</position>
+<position>footer</position>
+<position>bottom</position>
+</positions>
+</install>
